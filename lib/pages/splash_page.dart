@@ -14,7 +14,7 @@ class _SplashPageState extends State<SplashPage> {
   var isLoggedIn = false;
 
   initTimer() {
-    Timer(Duration(seconds: 2), () {
+    Timer(Duration(seconds: 3), () {
       if (isLoggedIn) {
         Navigator.pushReplacementNamed(context, HomePage.id);
       } else {
