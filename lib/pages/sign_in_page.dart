@@ -78,7 +78,7 @@ class _SignInPageState extends State<SignInPage> {
                     ),
                   ),
                 ),
-                //Bu container Sign in niki
+                //Bu container Sign in buttonniki
                 Container(
                   margin: EdgeInsets.only(left: 20, right: 20, top: 15),
                   width: double.infinity,
@@ -95,7 +95,7 @@ class _SignInPageState extends State<SignInPage> {
                     ),
                   ),
                 ),
-                //Bu container Sign up niki
+                //Bu container Sign up gesture detectorniki
                 Container(
                   margin: EdgeInsets.only(left: 20, right: 20, top: 15),
                   height: 50,
